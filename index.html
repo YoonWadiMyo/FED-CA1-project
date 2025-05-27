@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="CSS/basic.css" />
+    <link rel="stylesheet" href="CSS/home_page1.css" />
+    <link rel="stylesheet" href="CSS/reset.css" />
+</head>
+<body>
+    <!--Header and Navigation Section-->
+    <header>
+        <nav>
+            <div class="logo">SDG Goal 12: Responsible consumption and production</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aspiration.html">Aspirations</a></li>
+                <li><a href="about_me.html">About Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-text">
+            <h1>Sustainable Consumption & Production</h1>
+            <p>Follow the journey to shape the world to be a better place</p>
+            <button type="button"><a href="#topic">Get Started</a></button><!--It links back to the page underneath with the id-->
+        </div>
+    </section>
+
+    <!--Two Column section-->
+    <section class="flex-two-column"><!--This section is the flex container-->
+        <div class="topic-text" id="topic"><!--Column One Open Tag-->
+            <h1>The UN SDG goal 12 focuses on:</h1>
+            <ul>
+                <li>Making more use of sustainability in production industry</li>
+                <li>the responsible reduction of food waste, chemical waste</li>
+                <li>raising awareness on the sustainable practices</li>
+            </ul>
+            <h1>The values of this goal:</h1>
+            <p> This goal aims to move towards sustainable economic growth, while reducing the negative effects of production and consumption on the environment. It includes promoting resource efficiency as well. </p>
+            <h1>Why?</h1>
+            <p>While populations are continuing to grow, the planet will not have sufficient resources to support people current lifestyles. The environmental degradation endangers the sustainable system on which our future development and very survival depend. </p>
+            <!--https://www.un.org/sustainabledevelopment/sustainable-consumption-production/-->
+        </div><!--Column One Close Tag-->
+        <div class="column-two"><!--Column Two Open Tag-->
+            <figure>
+                <img class="goal12" src="Images/UNSDG_goal12.png" alt="">
+                <!--This image is from official UN website-->
+                <figcaption>Sustainable Development Goal 12</figcaption>
+            </figure>
+        </div><!--Column Two Close Tag-->
+    </section><!--Flex container Two Column Close Tag-->
+    
+    <!--Three column section-->
+    <div class="example-text">
+        <h2>Real-World Examples</h2>
+    </div>
+    <section class="flex-three-column"> <!-- Opening Tag of Three Section Flex Container -->
+        <section class="three-column-one"> <!-- Three Column Layout - Column One Open Tag -->
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="Images/ikea.jpg" alt="" style="width:300px;height:300px;">
+                    <!--Image taken from unsplash.com-->
+                  </div>
+                  <div class="flip-card-back">
+                    <div class="ikea-text">
+                        <!--https://www.ikea.com/sg/en/this-is-ikea/climate-environment/the-ikea-sustainability-strategy-pubfea4c210-->
+                        <p>IKEA has committed to becoming a fully circular and climate-positive business by 2030. This includes:</p>
+                        <ul>
+                            <li>Designing all products with new circular principles</li>
+                            <li>Using only renewable and recycled materials</li>
+                            <li>Implementing programs to encourage customers to repair, reuse, and recycle products</li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section> <!-- Three Column Layout - Column One Close Tag -->
+ 
+        <section class="three-column-two"> <!-- Three Column Layout - Column Two Open Tag -->
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="Images/cutlery.jpg" alt="" style="width:300px;height:300px;">
+                    <!--Image taken from unsplash.com-->
+                  </div>
+                  <div class="flip-card-back2">
+                    <div class="cutlery-text">
+                        <p>Cornstarch Cutleries: using new manufacturing methods that are carbon-neutral and keep waste out of the landfill, cornstarch is compressed into durable cutlery</p>
+                        <ul>
+                            <li>Reducing the amount of plastic waste that your restaurant generates</li>
+                            <li>Keeping long-lasting plastic out of landfills</li>
+                            <li>Preventing chemicals from leaching into the ground</li>
+                        </ul>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+              
+        </section> <!-- Three Column Layout - Column Two Close Tag -->
+ 
+        <section class="three-column-three"> <!-- Three Column Layout - Column Three Open Tag -->
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="Images/loop.jpg" alt="" style="width:300px;height:300px;">
+                    <!--Image taken from google.com-->
+                  </div>
+                  <div class="flip-card-back3">
+                    <div class="loop-text">
+                        <!--https://exploreloop.com/purpose/-->
+                        <p>Meet Loop: Eliminating the Idea of Waste® Its purpose is to revolutionize the way products are packaged, sold, and reused where packaging is continuously reused rather than disposed of. Here are the key purposes and impacts of Loop:</p>
+                        <ul>
+                            <li>Reducing Single-Use Packaging</li>
+                            <li>Encouraging Manufacturer Responsibility</li>
+                            <li>Promoting Sustainability</li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+        </section> <!-- Three Column Layout - Column Three Close Tag -->
+    </section> <!-- Closing Tag of Three Section Flex Container -->
+
+    <!--Footer section-->
+    <footer>
+        <div class="footer-text">
+            All rights reserved. Copyright &copy; United Nations 
+        </div>
+    </footer>
+</body>
+</html>

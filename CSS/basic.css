@@ -1,0 +1,15 @@
+/* Basic Styles */
+
+html {
+    font-family:  sans-serif, Lucida Sans, Verdana;
+}
+
+body {
+    width: 1920px;
+    max-width: 100%; /* This declaration is used to keep the website width confined to the user's screen if they have a smaller screen than the website width */
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}
